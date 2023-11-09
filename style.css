@@ -1,0 +1,114 @@
+/* Colors and fonts */
+
+body {
+    background-color: #1E212D;
+    background-image: linear-gradient(0deg, #1e212d 0%, #202b5b 36%, #717ba7 71%, #ffffff 92%);
+    color: #1E212D;
+    font-family: 'Telex', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  
+  h1, h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #1e212d;
+    font-weight: 100;
+  }
+  
+  h1 {
+    font-size: 35px;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    font-size: 23px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #202b5b;
+  }
+  
+  p {
+    text-justify: center;
+    text-justify: justify;
+  }
+  
+  /* Custome design with class */
+  
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+  
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  
+  .card-white {
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  
+  .img-circle {
+    border-radius:50%;
+  }
+  
+  .btn-blue {
+    background-color: #202b5b;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .btn-blue:hover {
+    background-color: #717ba7;
+    color: white;
+  }
+  
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .list-inline li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  .list-inline i {
+    transition: color 0.2s ease;
+    color: #202b5b;
+    font-size: 50px;
+  }
+  
+  .list-inline i:hover {
+    color: #717ba7;
+  }
+  
+  /* Design adjustements */
+  
+  #introduction p {
+    margin-bottom: 40px;
+  }
